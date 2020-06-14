@@ -189,7 +189,6 @@ public:
     // Complexity: >= O(n)
     // Where n is the length of str
     {
-        this->characters.clear();
         append_cstr(str_to_num(number).c_str());
     }
 
