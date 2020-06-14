@@ -54,4 +54,4 @@ Check the [lstring.hpp](lstring.hpp) file to see the complexity of each function
 
 ## License
 
-**lstring** is released under the **MIT** License so you can use it for anything you want.
+**lstring** is released under the **MIT** [license](LICENSE) so you can use it for anything you want.
