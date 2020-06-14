@@ -230,10 +230,10 @@ public:
     // Complexity: O(n)
     // Where n is the length of this lstring.
     {
-        std::string return_value;
+        std::string return_value = "";
         for(const char & code_unit : this->characters)
         {
-            return_value += code_unit;
+            if(code_unit != 0) return_value += code_unit;
         }
         return return_value;
     }
@@ -244,6 +244,7 @@ public:
     // Complexity: O(n)
     // Where n is the length of this lstring.
     {
+        std::cout << "STOD: " << ((std::string) *this) << std::endl;
         return std::stod((std::string) *this);
     }
 };
